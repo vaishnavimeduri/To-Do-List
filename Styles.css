@@ -1,0 +1,34 @@
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; 
+    font-size: xx-large;
+}
+#task-name,#task-date{
+    border:2px solid white;
+    width:250px;
+    height:40px;
+    background-color: grey;
+    color: whitesmoke;
+    font-size: large;
+}
+#tasks-list-box{
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: brown;
+}
+button{
+    color: whitesmoke;
+    background-color: brown;
+    border-radius: 20px;
+    width:120px;
+    height:40px;
+}
