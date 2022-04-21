@@ -32,3 +32,12 @@ button{
     width:120px;
     height:40px;
 }
+#current-task-name,#current-task-date{
+    border:2px solid white;
+    width:250px;
+    height:40px;
+    background-color: grey;
+    color: whitesmoke;
+    font-size: large;
+    
+}
