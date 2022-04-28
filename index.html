@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Styles.css">
-</head>
-<body>
-    <div id="heading">
-        To-Do-APP
-    </div>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div id="heading">To-Do-APP</div>
     <main>
-       
-        <div id="create-task-box">
-       <input id="task-name" placeholder="Enter your Task" type="text">
-       <input id="task-date" type="date"id="task-date">
-       <button id="create-task" onclick="addtaskhandler()">Add task</button>
-       <button onclick="deletemultiple()">Delete Selected</button>
-       <button onclick="deleteall()">Delete All</button>
-       <div id="tasks-list-box"></div>
-    </div>
+      <div id="create-task-box">
+        <input id="task-name" placeholder="Enter your Task" type="text" />
+        <input id="task-date" type="date" id="task-date" />
+        <button id="create-task" onclick="addtaskhandler()">Add task</button>
+        <button onclick="deletemultiple()">Delete Selected</button>
+        <button onclick="deleteall()">Delete All</button>
+        <div id="tasks-list-box"></div>
+      </div>
     </main>
- <script src="Script.js"></script>  
-</body>
+    <script src="Script.js"></script>
+  </body>
 </html>
